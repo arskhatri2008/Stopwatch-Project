@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="stopwatchtxt">
+        <h1>Stopwatch Project</h1>
+    </div>
+    <div class="container">
+    <div class="stopwatch">
+        <!-- <span>Hrs</span> -->
+        <span id="hrs">0</span>
+        <span>:</span>
+        <!-- <span>Mins</span> -->
+        <span id="min">0</span>
+        <span>:</span>
+        <!-- <span>Sec</span> -->
+        <span id="sec">0</span>
+        <span>:</span>
+        <!-- <span>Mili Sec</span> -->
+        <span id="milisec">0</span>
+
+    </div>
+    </div>
+    <div class="buttons">
+        <button onclick="start()" id="startbtn" class="btn">Start</button>
+        <button onclick="stop()" class="btn">Pause</button>
+        <button onclick="reset()" class="btn">Reset</button>
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
